@@ -76,7 +76,7 @@ ul li{
 ul li::before{
     content: '';
     position: absolute;
-    background-image: url("images/circle.png");
+    background-image: url("circle.png");
     background-size: cover;
     background-position: center;
     top: 12px;
@@ -93,7 +93,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image: url("images/filled-circle.png");
+    background-image: url("filled-circle.png");
     
 }
 
